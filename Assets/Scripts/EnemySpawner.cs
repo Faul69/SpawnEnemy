@@ -7,7 +7,7 @@ public class EnemySpawner : MonoBehaviour
     private readonly WaitForSeconds TwoSeconds = new WaitForSeconds(2);
 
     [SerializeField] private Transform _templePoints;
-    [SerializeField] private GameObject _enemy;
+    [SerializeField] private EnemyBehaviour _enemy;
 
     private Transform[] _points;
 
@@ -28,7 +28,7 @@ public class EnemySpawner : MonoBehaviour
         for (int i = 0; i < _points.Length; i++)
         {
             yield return TwoSeconds;
-            Instantiate(_enemy, _points[i].transform);
+            Instantiate(_enemy, _points[i]);
         }
     }
 }
