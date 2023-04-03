@@ -380,7 +380,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _templePoints: {fileID: 974667070}
-  _enemy: {fileID: 2993010144658719223, guid: 4484fc4865b0185489719a907d456932, type: 3}
+  _enemy: {fileID: 2148435262565958770, guid: 4484fc4865b0185489719a907d456932, type: 3}
 --- !u!1 &1024605951
 GameObject:
   m_ObjectHideFlags: 0
